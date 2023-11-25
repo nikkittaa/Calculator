@@ -1,0 +1,52 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('./digital-7\ \(mono\).ttf');
+   }
+
+body{
+    background-color: #DDE6ED;
+}
+.container{
+    margin-top:50px;
+    position: static;
+    height: 600px;
+    width: 30%;
+    margin-left:35%;
+    border: 1px solid black;
+    border-radius:2%;
+    padding: 4px;
+    background-color: black;
+    color:white;
+    font-family:'digital-clock-font';
+}
+
+h1{
+    text-align:center;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+
+}
+
+input{
+    position: absolute;
+    width: 29.2%;
+    height: 100px;
+    border-radius:5%;
+    font-family:'digital-clock-font';
+    font-size: 40px;
+    background-color: #9DB2BF;
+  
+}
+
+button{
+    height:88px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius:15%;
+    font-family:'digital-clock-font';
+    font-size: 30px;
+}
